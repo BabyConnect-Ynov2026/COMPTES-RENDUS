@@ -1,9 +1,6 @@
 Compte rendu - Mathys COLOMBO - B3 INFRA
 Ce compte rendu présente les étapes de développement du projet Challenge 48h, réalisé dans le cadre de la formation B3 INFRA à Ynov.
 
-Sommaire
-
-
 
 ## Présentation du projet
 
