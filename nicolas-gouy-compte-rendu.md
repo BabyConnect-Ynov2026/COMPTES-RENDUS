@@ -31,8 +31,6 @@ J'ai travaillé sur deux axes principaux durant ce challenge : l'architecture gl
 
 - **Coordination inter-équipes** : l'équipe backend a migré de Go vers TypeScript/Express/Prisma en cours de route. Il a fallu s'adapter rapidement et aligner les interfaces API pour que ynov-baby-vision reste compatible.
 - **Calibration des lignes de but** : les coordonnées de but en pixels dépendent du placement exact de la caméra, ce qui nécessite une phase de calibration manuelle pour chaque installation.
-- **Ordre de migration GORM** : bug en production — la table `matches` référençait `tournaments` via foreign key, mais `tournaments` n'était pas encore créée. Résolu en réordonnant les appels `AutoMigrate`.
-- **Gestion des conflits de réservations** : la requête SQL pour détecter les overlaps temporels (cas partiels, englobants, inclus) était plus complexe que prévu.
 
 ---
 
@@ -47,8 +45,6 @@ J'ai travaillé sur deux axes principaux durant ce challenge : l'architecture gl
 
 ## Bilan
 
-Ce challenge m'a permis de toucher à beaucoup de choses en très peu de temps : de la vision par ordinateur à l'API REST en passant par le DevOps. La contrainte des 48h force à faire des choix pragmatiques et à livrer quelque chose qui fonctionne plutôt que quelque chose de parfait.
+Ce challenge m'a permis de toucher à beaucoup de choses en très peu de temps : de la vision par ordinateur à l'API REST en passant par le DevOps. La contrainte des 48h force à faire des choix pragmatiques, à avoir de bonnes idées, faire de son mieux pour les réaliser, et avoir une approche collaborative.
 
-Le module ynov-baby-vision est le résultat que je retiens le plus : voir la balle détectée en temps réel et le score se mettre à jour automatiquement sur l'interface web est une vraie satisfaction.
-
-> *La valeur du challenge n'est pas dans le code final, mais dans ce qu'on apprend à faire ensemble sous contrainte.*
+Le module ynov-baby-vision est le module sur lequel j'ai le plus travaillé, il est encore assez basique (détection de la balle + ligne de but), mais il pose les bases pour des fonctionnalités plus avancées (détection de joueurs, analyse de tactiques, etc).
