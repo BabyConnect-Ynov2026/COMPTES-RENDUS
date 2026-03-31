@@ -38,7 +38,6 @@ Les fichiers : `tracker.py`, `goal_detector.py`, `api_client.py`, `config.py`, `
 ## Aides
 
 **Aide apportée :**
-- J'ai aidé l'équipe frontend à comprendre les endpoints de l'API (structure des réponses JSON, gestion des erreurs) quand ils ont repris le backend en TypeScript/Express/Prisma.
 - J'ai mis en place le Docker Compose pour que tout le monde puisse lancer le projet sans installer Go ou Node manuellement.
 - J'ai expliqué le fonctionnement du système ELO à l'équipe pour qu'ils puissent l'afficher correctement côté UI.
 
@@ -91,7 +90,6 @@ Je n'ai pas eu connaissance du système de shop pendant le challenge, je n'ai do
 ## Investissements personnels
 
 - 4 repositories créés et organisés dans l'organisation GitHub
-- ~50 commits sur l'ensemble des repos
 - Rédaction de 5 fichiers de documentation (architecture, API, installation, guide utilisateur, README)
 - Module ynov-baby-vision complet (5 fichiers Python, ~300 lignes)
 - Mise en place du pipeline CI/CD (GitHub Actions)
